@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background: rgba(3, 0, 19, 1);
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+button{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+p{
+    opacity: 0.7;
+}
+
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+header{
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+
+}
+
+header ul{
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 16px 20px;
+    margin-right: 40px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.secao1{
+    background-image: url("assets/sessao1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao1 h2{
+    margin-top: -8%;
+    font-size: 14vw;
+    color: rgb(196, 195, 195);
+    mix-blend-mode: color-dodge;
+}
+
+.conteudo_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+
+
+.divBotoes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+
+.botao_Orcamento{
+    background-color: rgba(255, 255, 255, 0.9);
+    gap: 12px;
+    padding: 6px 6px 6px 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.botao_Orcamento img{
+    width: 44px;
+}
+
+.botao_Contato{
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.secao2{
+    align-items: center;
+}
+
+.titulo-secao2{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.divCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px 270px 70px;
+}
+
+.card{
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+
+    h3{
+        font-size: 23px;
+        font-weight: 500;
+        margin: 20px 0px 4px;
+    }
+}
+
+
+.branco{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.descricao-card{
+    font-size: 20px;
+    
+    margin-top: 20px;
+}
